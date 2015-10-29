@@ -1,0 +1,38 @@
+{
+  "author": "Eduardo Gonzalez <eduardo.gch@gmail.com>",
+  "name": "ah-rethinkdb-plugin",
+  "description": "Actionhero plugin to support RethinkDB",
+  "version": "1.0.0",
+  "homepage": "https://github.com/eduardogch/ah-rethinkdb-plugin",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/eduardogch/ah-rethinkdb-plugin.git"
+  },
+  "keywords": [
+    "actionherojs",
+    "actionhero",
+    "rethinkdb",
+    "ah-rethinkdb-plugin",
+    "plugin",
+    "rethinkdb plugin"
+  ],
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "dependencies": {
+    "express-session-rethinkdb": "^0.2.0",
+    "fs-extra": "^0.26.0",
+    "mongoose": "^4.2.3",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "scripts": {
+    "postinstall": "scripts/postinstall.js"
+  },
+  "bugs": {
+    "url": "https://github.com/eduardogch/ah-rethinkdb-plugin/issues"
+  },
+  "main": "index.js"
+}
